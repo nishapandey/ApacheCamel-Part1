@@ -1,4 +1,4 @@
-package com.example.camel.route.d;
+package com.example.camel.mqroute.d;
 
 import org.apache.camel.builder.RouteBuilder;
 import org.springframework.stereotype.Component;

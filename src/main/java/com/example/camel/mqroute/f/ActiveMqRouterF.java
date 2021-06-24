@@ -1,11 +1,11 @@
-package com.example.camel.route.e;
+package com.example.camel.mqroute.f;
 
 import org.apache.camel.builder.RouteBuilder;
 import org.springframework.stereotype.Component;
 
 
 //@Component
-public class ActiveMqRouterE extends RouteBuilder{
+public class ActiveMqRouterF extends RouteBuilder{
 
 	public static int counter=0;
 	
@@ -21,9 +21,9 @@ public class ActiveMqRouterE extends RouteBuilder{
 		*/
 		
 		// creating a sender route which reads file from local disk and put it  to activemq queues
-		Object mq = from("activemq:e")
-				.log("moviing from e to f")
-				.to("activemq:f");
+		Object mq = from("activemq:f")
+				.log("reached f");
+				
 		
 	}
 

@@ -10,6 +10,7 @@ public class RoutingSlipRouter extends RouteBuilder{
 	@Override
 	public void configure() throws Exception {
 		// TODO Auto-generated method stub
+		//Routing slip: is used to dynamically route the message to certain endpoints based on certain criteria
 		 String routingslip1 = "direct:endpoint1,direct:endpoint2";
 		 String routingslip2 = "direct:endpoint1,direct:endpoint3";
 		 

@@ -22,6 +22,9 @@ public class SplitRouter extends RouteBuilder{
 				.to("activemq:mySplitter");
 		
 		 */
+		
+		//	Splitter and aggregation: split body or file content. And its opposite is aggregation
+
 		 	  
 		 Object mq = from("file:files/csv")
 				.convertBodyTo(String.class)

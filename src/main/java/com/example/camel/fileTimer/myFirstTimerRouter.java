@@ -27,7 +27,7 @@ public class myFirstTimerRouter extends RouteBuilder {
 	public void configure() throws Exception {
 		// TODO Auto-generated method stub
 		//read from queue-> transforn -> save in db
-		/*Object test = from("timer:frsttimer?period=10000")
+		Object test = from("timer:frsttimer?period=10000")
 			//	.transform().constant("my constant message")
 			//	.bean("getCurrentTime") //when you dont autowire
 			//.bean(GetCurrentTime,"getTime") 
@@ -39,7 +39,7 @@ public class myFirstTimerRouter extends RouteBuilder {
 			.log("${body}")
 			.process(new processComponent())
 		.to("log:first-timer");
-		*/
+		
 		
 	}
 	

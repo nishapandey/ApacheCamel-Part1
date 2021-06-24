@@ -9,6 +9,11 @@ public class choiceRouter extends RouteBuilder{
 	@Override
 	public void configure() throws Exception {
 		// TODO Auto-generated method stub
+		/*
+		  When you need to conditionally route a message based on some fact, you can use the "choice"
+		  and "when" constructs. Its is also called content based routing  ie. Choice,  It checks body of the message or filename
+		  or extn...
+		 */
 		
 		Object test = 
 				from("file:files/input")

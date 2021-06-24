@@ -1,4 +1,4 @@
-package com.example.camel.route.choice;
+package com.example.camel.choice;
 
 import org.apache.camel.builder.RouteBuilder;
 import org.springframework.stereotype.Component;

@@ -1,4 +1,4 @@
-package com.example.camel.route.fileTimer;
+package com.example.camel.fileTimer;
 
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.model.RouteDefinition;

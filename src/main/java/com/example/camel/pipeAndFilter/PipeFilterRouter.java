@@ -1,4 +1,4 @@
-package com.example.camel.route.pipeAndFilter;
+package com.example.camel.pipeAndFilter;
 
 import org.apache.camel.builder.RouteBuilder;
 import org.springframework.stereotype.Component;

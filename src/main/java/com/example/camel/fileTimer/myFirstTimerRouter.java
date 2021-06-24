@@ -1,4 +1,4 @@
-package com.example.camel.route.fileTimer;
+package com.example.camel.fileTimer;
 import java.time.LocalDateTime;
 
 import org.apache.camel.Exchange;

@@ -36,8 +36,6 @@ public class AggregateRouter extends RouteBuilder{
 	        }
 	    }
 
-
-
 	}
 
 	@Override

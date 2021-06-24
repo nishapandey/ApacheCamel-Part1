@@ -1,2 +1,2 @@
 # ApacheCamel-part1
- Building a SpringBoot microservices to interact with aother microservice, send and recieve messages using ActiveMQ and Apace Camel
+Created SpringBoot microservices to send and recieve messages/files with aother microservice (part2) using Java, Apace Camel, ActiveMQ, Docker to run the message broker

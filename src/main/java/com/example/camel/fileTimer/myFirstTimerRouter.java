@@ -26,7 +26,7 @@ public class myFirstTimerRouter extends RouteBuilder {
 	@Override
 	public void configure() throws Exception {
 		// TODO Auto-generated method stub
-		//read from queue-> transforn -> save in db
+		//read from queue-> transforn -> save in db/log in this case
 		Object test = from("timer:frsttimer?period=10000")
 			//	.transform().constant("my constant message")
 			//	.bean("getCurrentTime") //when you dont autowire

@@ -14,24 +14,25 @@ public class SplitRouter extends RouteBuilder{
 	@Override
 	public void configure() throws Exception {
 		// TODO Auto-generated method stub
-		/*
+		
 		Object mq = from("file:files/csv")
 				.unmarshal().csv()
 				.split(body())
 				.log("${body}")
 				.to("activemq:mySplitter");
 		
-		 */
+		 
 		
 		//	Splitter and aggregation: split body or file content. And its opposite is aggregation
 
 		 	  
-		 Object mq = from("file:files/csv")
+		/* Object mq = from("file:files/csv")
 				.convertBodyTo(String.class)
 				.split(method(SplitClassComponent)) //can do it with bean or split method
 				//.bean(SplitClassComponent)
 				.log("${body}")
 				.to("activemq:mySplitter");
+				*/
 		 
 		
 		
